@@ -1,0 +1,14 @@
+{
+  "name": "x-poster-dependencies",
+  "version": "1.0.0",
+  "description": "Dependencies for my Netlify function",
+  "dependencies": {
+    "twitter-api-v2": "^2.1.0"
+  }
+}```
+
+**3. Click "Commit new file".**
+
+As soon as you save this file, Netlify will **automatically start another deploy**. This time, it will read your new `package.json` file, install the `twitter-api-v2` library, and the build should succeed.
+
+Wait for that new deploy to say **"Published"**, and then your app will be fully working.
