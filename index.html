@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quick Poster</title>
+    <!-- A little bit of style to make it look nice -->
+    <style>
+        body { font-family: sans-serif; max-width: 500px; margin: 2rem auto; padding: 1rem; }
+        textarea { width: 100%; box-sizing: border-box; font-size: 1rem; }
+        button { font-size: 1rem; padding: 0.5rem 1rem; }
+        #charCounter { text-align: right; margin-top: 5px; font-size: 0.9rem; color: #555; }
+    </style>
 </head>
 <body>
 
     <h1>Post to X</h1>
     <textarea id="postContent" rows="5" cols="50" placeholder="What's happening?"></textarea>
+    
+    <!-- This is the new element for the counter -->
+    <div id="charCounter">0 / 280</div>
+
     <br>
     <button id="postButton">Post</button>
 
